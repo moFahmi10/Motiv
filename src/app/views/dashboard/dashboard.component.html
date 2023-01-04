@@ -1,0 +1,124 @@
+<div class="container">
+    <div class="metrics">
+        <div class="energy">
+            <i class="fa fa-bolt" style="color: #F6CC0D;"></i>
+            <br><a>Energy</a><br>
+            <circle-progress
+        [percent]="45"
+        [radius]="70"
+        [outerStrokeWidth]="16"
+        [innerStrokeWidth]="16"
+        [innerStrokeColor]="'#D3D3D3'"
+        [subtitle]="''"
+        [space]="-16"
+        [titleFontSize]="'40'" 
+        [unitsFontSize]="'40'"   
+        [outerStrokeColor]="'#F6CC0D'"
+        [animation]="true"
+        [animationDuration]="300"
+        [showInnerStroke]="true"
+        ></circle-progress>
+    </div>
+    <div class="range">
+        <i class="fa fa-arrows-alt-v" style=" color:#FF7E86"></i>
+        <br><a>Range</a><br>
+        <circle-progress
+        [percent]="57"
+        [radius]="70"
+        [outerStrokeWidth]="16"
+                [innerStrokeWidth]="16"
+        [innerStrokeColor]="'#D3D3D3'"
+        [subtitle]="''"
+        [space]="-16"
+        [titleFontSize]="'40'" 
+        [unitsFontSize]="'40'"  
+        [outerStrokeColor]="'#FF7E86'"
+       
+        [animation]="true"
+        [animationDuration]="300"
+        
+        ></circle-progress>
+    </div>
+
+    <div class="break-fluid">
+        <i class="fa fa-egg" style="color:#A162F7"></i>
+        <br><a>Break Fluid</a><br>
+        <circle-progress
+        [percent]="9"
+        [radius]="70"
+        [outerStrokeWidth]="16"
+        [innerStrokeWidth]="16"
+        [innerStrokeColor]="'#D3D3D3'"
+        [subtitle]="''"
+        [space]="-16"
+        [titleFontSize]="'40'" 
+        [unitsFontSize]="'40'"  
+        [outerStrokeColor]="'#A162F7'"
+
+        [animation]="true"
+        [animationDuration]="300"
+        
+        ></circle-progress>
+    </div>
+    <div class="tire-wear">
+        <i class="fa fa-dot-circle" style="color:#2884FF"></i>
+        <br><a>Tire Wear</a><br>
+        <circle-progress
+        [percent]="25"
+        [radius]="70"
+        [outerStrokeWidth]="16"
+        [innerStrokeWidth]="16"
+        [innerStrokeColor]="'#D3D3D3'"
+        [subtitle]="''"
+        [space]="-16"
+        [titleFontSize]="'40'" 
+        [unitsFontSize]="'40'"  
+        [outerStrokeColor]="'#2884FF'"
+
+        [animation]="true"
+        [animationDuration]="300"
+        
+        ></circle-progress>
+    </div>
+</div> 
+
+</div>
+<div class="stats">
+<div class="chart"><app-chart></app-chart></div>
+<div class="chart2"><app-chart2></app-chart2></div>
+</div>
+<div class="recommend">
+    <div class="car" style="background-color: #E1DFA4;">
+        <i class="fa fa-recycle" style="color: #72767C; font-size: 20px; " ></i>
+        <a>64% recommend</a><br>
+        <img src="./assets/img/car2.png">
+        <br><a class="name">Mini Cooper</a><br>
+        <i class="fa fa-retweet"></i>
+        <a>132k</a>
+        <i class="fa fa-gear"></i> 
+        <i class="fa fa-bolt"></i> 
+        <a style="margin-left: 50px;">$28/h</a> 
+    </div>
+    <div class="car" style="background-color: #E3ECF1;">
+        <i class="fa fa-recycle" style="color: #72767C; font-size: 20px; " ></i>
+        <a>64% recommend</a><br>
+        <img src="./assets/img/car2.png">
+        <br><a class="name">Mini Cooper</a><br>
+        <i class="fa fa-retweet"></i>
+        <a>132k</a>
+        <i class="fa fa-gear"></i> 
+        <i class="fa fa-bolt"></i> 
+        <a style="margin-left: 50px;">$28/h</a> 
+    </div>
+    <div class="car" style="background-color: #F4E3E5;">
+        <i class="fa fa-recycle" style="color: #72767C; font-size: 20px; " ></i>
+        <a>64% recommend</a><br>
+        <img src="./assets/img/car2.png">
+        <br><a class="name">Mini Cooper</a><br>
+        <i class="fa fa-retweet"></i> 
+        <a>132k</a>
+        <i class="fa fa-gear"></i>  <i class="fa fa-bolt"></i>
+        <a style="margin-left: 50px;">$28/h</a> 
+    </div>
+    
+</div>

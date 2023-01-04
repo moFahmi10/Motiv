@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+.body{
+    flex-grow: 100;
+    
+}
+.body .router{
+    
+    padding-top: 40px;
+    margin-top: 50px;
+}

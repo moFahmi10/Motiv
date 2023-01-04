@@ -1,0 +1,88 @@
+
+.container{
+    display: block;
+
+}
+
+.metrics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ .metrics div{
+    background-color:white;
+    text-align: center;
+     border-radius: 12px;
+     width: 250px;
+ }
+ .metrics div:hover{
+    background-color:#A162F7; 
+ }
+ .metrics div:hover a{
+    color: white;
+ }
+ .metrics div i,a{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+ }
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+}
+
+ .chart{
+    padding-top: 20px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+ }
+ .chart2{
+    padding-top: 20px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+ }
+ .recommend{
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ .recommend .car a{
+font-size: 20px;
+
+ }
+ .recommend div{
+    
+    background-color: white;
+    width: 375px;
+    height: 250px;
+    border-radius: 15px;
+
+ }
+ .recommend img{
+    width: 300px;
+    margin-left: 30px;
+ }
+ .recommend .car i{
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+ }
+ .recommend .car .name{
+    color: black;
+    margin-left: 30px;
+ }

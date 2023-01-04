@@ -1,0 +1,27 @@
+<div class="header">
+    <a class="view">Booking</a>
+    <div class="selections">
+    <div class="buttons">
+        <div class="new">
+        <a>New</a>
+        <i class="fa fa-angle-down"></i>
+        </div>
+        <div>
+        <a>Toyota</a>
+        <i class="fa fa-angle-down"></i>
+        </div> 
+    </div>
+    <div class="filter">
+        <div> <i class="fa fa-grip-horizontal" 
+            style=" font-size: 20px;"></i></div>
+        <div><i class="fa fa-sliders-h" style="font-size: 16px;"></i></div>
+    </div>
+    </div>
+</div>
+<div class="cars">
+<app-car
+*ngFor="let car of cars"
+></app-car>
+
+</div>
+

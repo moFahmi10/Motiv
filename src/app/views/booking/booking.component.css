@@ -1,0 +1,84 @@
+.header{
+    margin-left: 30px;
+}
+.selections{
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.view{
+   
+    font-size: 35px;
+
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+.buttons div{
+    color: #6F7378;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    width: 70px;
+
+}
+.buttons div:hover{
+   background-color: #A162F7;
+}
+.buttons div:hover a{
+    color: white;
+}
+.buttons div:hover i{
+    color: white;
+}
+
+
+
+.buttons i{
+    
+    margin-left: 10px;
+}
+
+
+
+.cars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.filter div{
+    margin-left: 20px;
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    box-shadow:  0.5px 1.5px #888888;
+}
+.filter i {
+    color: #6F7378;
+}
+.filter div:hover{
+    background-color: #A162F7;
+   
+}
+.filter div:hover i{
+   
+    color: white;
+}

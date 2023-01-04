@@ -1,0 +1,55 @@
+.container{
+   display: flex;
+   justify-content: space-between;
+    background-color: white;
+    float: left;
+    width: 99.9%;
+    padding-bottom: 20px;
+    border: 0.01px solid whitesmoke;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+
+}
+.search-bar{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    background-color: #EEF2F8;
+    width: 300px;
+    margin-left: 40px;
+    height: 2.5rem;
+    margin-top: 10px;
+}
+.search-bar input{
+    font-family: Calibri;
+    font-size: 15px;
+    font-weight: 700;
+    flex-grow: 100;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: #EEF2F8;
+}
+.search-bar i{
+    font-size: 20px;
+    color: #6F7378;
+    margin-left: 20px;
+    margin-top: 0.7rem;
+}
+
+.account{
+    display: flex;
+}
+.account img{
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 40px;
+    margin-top: 10px;
+}
+.account i{
+    color: #6F7378;
+    font-size: 20px;
+    margin-right: 30px;   
+    margin-top: 25px;
+}
