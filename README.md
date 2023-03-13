@@ -1,4 +1,6 @@
 # Motiv
+![dashboard](https://user-images.githubusercontent.com/83909880/224827028-103b61d1-7273-45a7-9609-65786f0037bd.png)
+![booking](https://user-images.githubusercontent.com/83909880/224827046-92eb9ade-9560-41e6-935f-e6895c616481.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
